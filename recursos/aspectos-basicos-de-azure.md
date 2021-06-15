@@ -65,27 +65,25 @@ Facilita la conexión entre los usuarios y los partners de Microsoft, provedores
 
 <center> <img src="https://docs.microsoft.com/es-mx/learn/azure-fundamentals/intro-to-azure-fundamentals/media/azure-services-6c41a736.png"> </center>
 
-### Categorías que se usan com más frecuencia
+## Categorías que se usan com más frecuencia
 
-<table border="0">
-    <tr>
-        <td>
-            <ul>
-                <li>Proceso
-                <li>Redes
-                <li>Almacenamiento
-                <li>Móvil
-                <li>Bases de Datos
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li>Web
-                <li>Internet de las cosas (IoT)
-                <li>Macrodatos
-                <li>Inteligencia Artificial (IA)
-                <li> DevOps
-            </ul>
-        </td>
-    </tr>
-</talble>
+|                   |                               |
+| :-------------    | :---------------------------- |
+|   Proceso         |   Web                         |
+|   Redes           |   Internet de las cosas (IoT) |
+|   Almacenamiento  |   Macrodatos                  |
+|   Móvil           |   INTELIGENCIA ARTIFICIAL     |
+|   Bases de datos  |   DevOps                      |
+
+## Cuentas de Azure
+
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/intro-to-azure-fundamentals/media/scope-levels-12669ee1.png)
+
+## Cuenta gratuita de Azure
+
+La cuanta gratuita de Azure incluye lo siguiente:
+
+- Acceso gratuito a productos populares de Azure durante 12 meses
+- Crédito para gastar durante los primeros 30 días
+- Acceso a más de 25 productos que siempre son gratis
+
