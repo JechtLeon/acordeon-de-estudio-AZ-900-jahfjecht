@@ -12,7 +12,7 @@
 
 | Nube pública | Nube privada | Nube hibrida |
 | :--- | :--- | :--- |
-| No hay gastos de capitla para escalar verticalmente. | Debe adquirirse hardware para el inicio y el mantenimienti. | Proporciona la máxima flexibilidad |
+| No hay gastos de capital (CapEx) para escalar verticalmente. | Debe adquirirse hardware para el inicio y el mantenimienti. | Proporciona la máxima flexibilidad |
 |Las aplicaciones pueden aprovisionarse y desaprovisionarse rápidamente|Las organizaciones tiene un control total de los recursos y la seguridad|las organizaciones determinan dódne se van a ejecutar sus aplicaciones|
 |Las organizaciones solo pagan por lo que usan|Las organizaciones son responsables del mantenimiento y las actualizaciones del hardware|Las organizaciones controlan la seguridad, el cumplimiento o los requisitos legales|
 
