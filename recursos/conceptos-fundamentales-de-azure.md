@@ -39,7 +39,7 @@ Los entornos en la nube ofrencen varias ventajas en comparación con los entorno
 
 ## La informática en la nube es un modelo basado en el consumo
 
-- Sin contes por adelantado.
+- Sin costes por adelantado.
 - No es necesario comprar ni administrar infraestructuras costosas que es posible que ls usuarios no aprovechen del todo.
 - Se puede pagar para obtener recursos adicionales cuando se necesiten.
 - Se puede dejar de pagar por los recursos que ya no se necesiten.
