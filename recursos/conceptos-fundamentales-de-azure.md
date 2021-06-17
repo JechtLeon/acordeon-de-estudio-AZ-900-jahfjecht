@@ -43,3 +43,29 @@ Los entornos en la nube ofrencen varias ventajas en comparación con los entorno
 - No es necesario comprar ni administrar infraestructuras costosas que es posible que ls usuarios no aprovechen del todo.
 - Se puede pagar para obtener recursos adicionales cuando se necesiten.
 - Se puede dejar de pagar por los recursos que ya no se necesiten.
+
+## Modelos de servicios en la nube
+
+|Modelo|Descripción|
+|---|---|
+|Infraestructura como servicio (Iaas) |Este modelo de servicio en la nube es el más similar a la adminstración de servidores físicos; un proveedor de servicios en la nube mantendrá actualizado el hardware, pero el mantenimiento del sistema operativo y la configuración de red serán su responsabilidad como inquilino de nube.|
+|Plataforma como servicio (PaaS) |Este modelo de servicio en la nube es un entorno de hospedaje administrado. El proveedor de servicios en la nube administra las maquinas virtuales y los recursos de red, y el inquilono de nube implementa sus aplicaiones en el entorno de hospedaje administrado.|
+|Software como servicio (SaaS) |En este modelo de servicio en la nube, el proveedor de servicios en la nube administra todos los aspectos del entorno de la aplicación, como las máquinas virtuales, los recursos de red, el almacenamiento de datos y las aplicaciones.|
+
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/fundamental-azure-concepts/media/iaas-paas-saas-575a09e9.png#lightbox)
+
+## Comparación de los modelos de servicio en la nube
+
+|Iaas|PaaS|SaaS|
+|----|----|----|
+|El servicio en la nube más flexible|Céntrense en el desarrollo de aplicaciones|Modelo de pago por uso|
+|Configure y administe el hardware de la aplicaión|El proveedor de nube controla la administración de la plataforma|Los usuarios pagan por el software que utilizan en un modelo de su suscripción|
+
+### Niveles de responsabilidad en un proveedor de servicios en la nube y un inquilino de nube
+
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/fundamental-azure-concepts/media/shared-responsibility-76efbc1e.png)
+
+## Informática sin servidor
+
+Igual que PaaS, la *informática sin servidor* permite que llos desarrolladores creen aplicaciones más rápidamente, ya que elimina la necesidad de administrar la infraestructura. En las aplicaciones sin servidor, el proveedor de servicios en la nube aprovisiona, escala y administra automaticamente la infraestructura necesaria para ejecutar el código.
+En otras palabras el término *son servidor* procede del hecho de que las tareas asociadas a la administración y el aprovisionamiento de la infraestructura son invisibles para el desarrollador.
