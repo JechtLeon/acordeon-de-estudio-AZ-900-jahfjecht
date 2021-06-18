@@ -60,4 +60,16 @@ Cuando un usuarios envía una solicitud de cualquiera de la herramientas, las AP
 ## Ventajas de usar Resource Manager
 - Administrar la infraestructura mediante plantillas declarativas en lugar de scripts. Una plantilla de Resource Manager es un archivo JSON que define lo que quiere implementar en Azure.
 - Implementar, administrar y supervisar todos los recursos de la solución en grupo, en lugar de controlarlos individualmente.
-- 
+- Vuelva a implementar la solución a lo largo del ciclo de vida de dasarrollo y tenga la seguridad de que los recursos se implementan en un estado coherente.
+- Definir las dependencias entre los recursos de modo que se implementen en el orden correcto.
+- Aplicar control de acceso a todos los servicios, puesto que RBAC se intrega de forma nativa en la paltaforma de administración.
+- Aplicar **etiqutas** a los recursos para organizar de manera lógica todos los recursos de la suscripción.
+- Comprenda la *facturación* de la organización viendo los costos de un grupo que comparten la misma etiqueta.
+
+## Suscripciones de Azure
+
+Una suscripción de Azure es una unidad lógica de servicos de Azure que está vinculada a una cuenta de Azure, que es una *identidad* de **Azure Active Directory (Azure AD)** o en un directorio en el que confía Azure AD.
+
+Una cuneta puede tener una suscripción o varias suscripciones que con distintos modelos de facturación y a las que se aplican diferentes *directivas* de administración de acceso. Se pueden usar las suscripciones de Azure para definir límites en torno a los productosm servicios y recursos de Azure. Hay dos tipos de limite de suscripción:
+- **Límite de facturación**: Este tipo de suscripcion determina como se factura una cuenta de Azure por el uso de Azure. Puede crear varias suscripciones para diferentes tipos de requisitos de fecturación. Azure genera facturas e informes de facturación independientes para cada suscripción.
+- **Límite de control de acceso**: Azure aplica las *directivas* de administración de acceso en el nivel de suscripción por lo que puede crear suscripciones independientes para reflejar distintas estructuras organizativas.
