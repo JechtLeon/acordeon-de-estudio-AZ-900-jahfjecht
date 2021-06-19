@@ -73,3 +73,36 @@ Una suscripción de Azure es una unidad lógica de servicos de Azure que está v
 Una cuneta puede tener una suscripción o varias suscripciones que con distintos modelos de facturación y a las que se aplican diferentes *directivas* de administración de acceso. Se pueden usar las suscripciones de Azure para definir límites en torno a los productosm servicios y recursos de Azure. Hay dos tipos de limite de suscripción:
 - **Límite de facturación**: Este tipo de suscripcion determina como se factura una cuenta de Azure por el uso de Azure. Puede crear varias suscripciones para diferentes tipos de requisitos de fecturación. Azure genera facturas e informes de facturación independientes para cada suscripción.
 - **Límite de control de acceso**: Azure aplica las *directivas* de administración de acceso en el nivel de suscripción por lo que puede crear suscripciones independientes para reflejar distintas estructuras organizativas.
+
+### Creación de una suscripcion de AZure adicional
+
+Es posible que quiera crear suscripciones adicionales para fines de administración de facturación o recursos. Por ejemplo, puede optar por crear suscripciones adicionales para separar los siguiente:
+
+- **Entonos**: cuando administra sus recursos, puede optar por crear suscripciones con el fin de configurar entornos independientes para el desarrollo y las pruebas, para seguridad o para aislar los datos por motivos de cumplimiento.
+- **Estructuras organizativas**.
+- **Facturación**: Dado que los costos se agregan primero en el nivel de suscripcion, es posible que quiera crear suscripciones para administrar y realizar un seguimiento de los costos en función de sus necesidades.
+- **Limites de suscripción**: las suscripciones se enlazan a algunas limitaciones de hardware. Por ejemplo, el número máximo de circuitos de Azure ExpressRoute por cada suscripción es de 10. Esos límites se deben de tener en concideración al crear suscripciones en la cuenta.
+
+### Personalización de la facturación de para satisfacer sus necesidades
+
+Si tiene varias suscripciones, puede organizarlas en secciones de la factura. Cada sección de la factura es un elemento de línea en la facturaque muestra los cargos en los que se incurre ese mes.
+En función de las necesidades, se pueden configurar varias facturas dentro de la misma cuenta de facturación. Para ello, cree perfiles de facturación adicionales. Cada perfil de facturación contiene su propia factura mensual y métod de pago.
+
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-architecture-fundamentals/media/billing-structure-overview-2c81a8ad.png)
+
+### Grupos de adminstración de Azure
+
+Si la organización tiene muchas suscripciones , es posible que necesite una forma de administrar cin eficacia el acceso, las directivas y el cumplimiento para esas suscripciones. Los grupos de admnistración de Azure ofrecen un nivel de ámbito que está por encima de las suscripciones. Las suscripciones se organizan en contenedores llamados grupos de administración y las condiciones de gobernanza se aplican a los grupos de administración. Todas las suscripciones dentro de un grupo de administración heredan automáticamente las condiciones que se aplican al grupo de Administración.
+
+### Jerarquía de los grupos de adminstración
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-architecture-fundamentals/media/management-groups-and-subscriptions-bba71896.png)
+
+Hechos importantes acerca de los grupos de administración:
+- Se admiten 10,000 grupos de administracipon en un único directorio.
+- Un árbol de grupo de administración puede puede admitir hasta seis niveles de profundidad.*Este límite no incluye el nivel raíz ni el nivel de suscripción*.
+- Cada grupo de administación y suscripción solo puede admitir un elemento primario.
+- Cada grupo de administración puede tener muchos elementos secundarios.
+- Todas las suscripciones y gropus de admon. están dentro de una única jerarquía en cada directorio.
+
+## App Service
+ Es un servicio basado en HTTP que permite crear y hospedar muchos tipos de soluciones basadas en la Wed sin necesidad de administrar la infraestructura.
