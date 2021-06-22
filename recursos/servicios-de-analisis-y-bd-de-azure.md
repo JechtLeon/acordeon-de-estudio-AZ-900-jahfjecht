@@ -40,3 +40,39 @@ Permite migrar las bases de datos existentes de MySQL con un tiempo de inactivid
 ![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-database-fundamentals/media/azure-db-for-mysql-conceptual-diagram-02e2a10a.png)
 
 Azure Database for MySQL ofrece varios niveles de servicio, y cada uno de ellos aporta un rendimiento y una funcionalidad diferentes para admitir cargas de trabajo de bd ligeras y pesadas.
+
+## Azure Database for PostgreSQL
+
+- Es un servicio de base de datos relacional en la nube.
+- El software de servidor se basa en la varsión de la comunidad del motor de base de datos de PosgrateSQL de código abierto.
+
+Azure Database PostgreSQL ofrece las siguientes ventajas:
+
+- Alta disponibilidad integrada en comparación con los recursos locales. No hay ninguna configuración, replicación o costo adicionales que sean necesarios ára asegurarse de que las aplicacioes están siempre disponibles.
+- Precios sencillos y flexibles. Tiene un rendimiento predecible en función de un plan de tarifa seleccionado que incluye copias de segurad automaticas, aplicación de revisiones de software, supervisión y seguridad.
+- Escalado o reducción vertical según sea necesario, en cuestion de segundos. Puede escalar procesos o almacenamiento por separado segun sea necesario para asegurarse de que adapta su servico para que coincida con el uso.
+- Copias de seguridad automáticas ajustables y restauración a un momento dado durante un máximo de 35 días.
+- Seguridad y cumplimiento de nivel empresarial para proteger la información confidencial en reposo y en movimiento. Esta seguridad abarca el cifrado de datos en el disco y en el certificado SSL entre la comunicación entre cliente y servidor.
+
+Azure Database for PostgreSQL esta disponible en dos opciones de implementación: ***Sevidor único** e **Hiperescala (Citus)**
+**Servidor único**
+    - Alta disponibilidad integrada son coste adicional (SLA 99,99%)
+    - Rendimiento predecible y precios de pago por uso inclusivos
+    - Escalado vertical según sea necesario, en cuestión de segundos.
+    - Supervisión y alertas para evaluar el servidor
+    - Capacidad de protección de información confidencial en reposo y en movimiento.
+    - Copias de seguridad automáticas y restauración a un momento dado durante un maximo de 35 días.
+
+**Hiperescala**
+
+La opción de Hiperescla (Citus) escala horizontalmente  las consultas entre varias maquinas mediante el particionamiento. Su motos de consultas paraleliza las consultas SQL entrantes en estos servidores para agilizar las respuestas en cinjustos de datos grnades. Proporciona servicios a las aplicaciones que requieren mayor escalay mejor rendimiento, por lo genreal las cargas de trabajo que se aproximan a los 100 GB de datos (o que incluso los superan)
+
+- Admite apliaciones multiinquilino,
+- analisis operativos en tiempo real y
+- cargas de trabajo transaccionales de alto rendimiento
+
+Las aplicaciones compiladas para PostgreSQL pueden ejecutar consultas distrinuidas en Citus cpn las bibliotecas de conexiones estándar y unos cambios minimos.
+
+## Azure SQL Managed Instance
+
+Es un servico de datos en la nube que proporciona la mayor compatibilidad con el motor de bd de SQL Servercon todas las ventajas de una Paas totalmente administrado. En función de su escenario, Azure SQL Managed Instance podria ofreces mas opciones para sus necedidades de BD.
