@@ -76,3 +76,8 @@ Las aplicaciones compiladas para PostgreSQL pueden ejecutar consultas distrinuid
 ## Azure SQL Managed Instance
 
 Es un servico de datos en la nube que proporciona la mayor compatibilidad con el motor de bd de SQL Servercon todas las ventajas de una Paas totalmente administrado. En función de su escenario, Azure SQL Managed Instance podria ofreces mas opciones para sus necedidades de BD.
+
+- SLA 99,99%
+- Azure SQL Managed Instance facilita la migración de los datos locales en SQL Server a la nube con Azure Database Migration Service (DMS) o en copias de seguridad y restauración nativas.
+
+![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-database-fundamentals/media/migration-process-flow-small-a899c59c.png)
