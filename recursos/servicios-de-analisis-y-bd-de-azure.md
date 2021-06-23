@@ -80,8 +80,6 @@ Es un servico de datos en la nube que proporciona la mayor compatibilidad con el
 - SLA 99,99%
 - Azure SQL Managed Instance facilita la migración de los datos locales en SQL Server a la nube con Azure Database Migration Service (DMS) o en copias de seguridad y restauración nativas.
 
-<<<<<<< HEAD
 ![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-database-fundamentals/media/migration-process-flow-small-a899c59c.png)
-=======
-![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-database-fundamentals/media/migration-process-flow-small-a899c59c.png)
->>>>>>> 2265f1caabcf8b04abfd9306d76e9a64977c2516
+
+## Analisis y macrodatos
