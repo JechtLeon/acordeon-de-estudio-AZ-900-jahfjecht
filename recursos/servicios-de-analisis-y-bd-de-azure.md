@@ -83,3 +83,37 @@ Es un servico de datos en la nube que proporciona la mayor compatibilidad con el
 ![image](https://docs.microsoft.com/es-mx/learn/azure-fundamentals/azure-database-fundamentals/media/migration-process-flow-small-a899c59c.png)
 
 ## Analisis y macrodatos
+
+**Azure Synapse Analytics**
+
+- Es un servicio de análisis ilimitado que reúne el almacenamiento de datos empresariales y el análisis de macrodatos
+- Puede consultar los datos mediante recursos sin servidor o aprovisionados a escala
+- Experiencia unificada para ingerir, preparar, administrar y servir datos para las necedides inmediatas de inteligencia empresarial y aprendizaje automático
+
+**Azure HDInsight**
+
+- Es un servicio de análisis de código abierto totalmente administrado
+- Es un servicio en la nube que hace que sea más fácil, rápido y rentable procesar grandes cantidades de datos
+- Puede ejecutar marcos de código abierto populares y crear tipos de clúster como:
+    - Apache Spark,
+    - Apache Hadoop,
+    - Apache kafka,
+    - Apache HBase,
+    - Apache Storm y
+    - Machine Learning Services
+
+HDInsight también admite una amplia gama de escenarios, como la extracción, la transformación y la carga de datos (ETL), el almacenamiento de datos, el aprendizaje automático e IoT
+
+**Azure Databricks**
+
+- Ayuda a descubrir información de datos y a crear soluciones de inteligencia artificial
+- Puede configurar el entorno de Apache Spark y, después, escalar automáricamente y colaborar en proyectos compartidos en un área de trabajo interactiva
+- Admite Python, Scala, R, Java y SQL, así como marcos y bibliotecas de ciencia de datos, como TensorFlow, PyTorch y Scikit-learn
+
+**Análisis con Azure Data Lake**
+
+- Es un servicio de trabajos de análisis a petición que simplifica los macrodatos
+ 
+En lugar de implementar, configurar y ajustar el hardware, escribirá consultas para transformar los datos y extraer ideas valiosas.
+- El servicio de análisis puede administrar trabajos de cualquier escala al instante, simplemente estableciendo el ajuste adecuado.
+- Pago por uso.
